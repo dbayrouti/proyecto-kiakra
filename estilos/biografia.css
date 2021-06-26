@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* #grilla {
+    display: grid;
+    grid-template-rows: 50px auto 25px;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "nav"
+      "main"
+      "footer";
+    grid-row-gap: 0px;
+    width: 100%;
+    height: 100%;
+  } */
+
+/* header {
+    grid-area: nav;
+  }
+  
+  main {
+    grid-area: main;
+  }
+  
+  footer {
+    grid-area: footer;
+  } */
+
+/* HEADER */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 50px;
+}
+
+nav div {
+  margin: 0px 20px;
+}
+
+.navegacion div a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.navegacion > div a:hover {
+  background: white;
+  color: black;
+  transition: all 1s;
+}
+
+/* MAIN */
+h2 {
+  text-align: center;
+}
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  margin: 0px 50px 0px 50px;
+}
+.biografia {
+  margin-top: 50px;
+  height: 330px;
+}
+
+.span {
+  font-weight: bold;
+}
+
+.logokiakra {
+  width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+  background: linear-gradient(to top, grey, white);
+  margin: 0;
+  height: 80px;
+}
+
+.text-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

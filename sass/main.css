@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.nav__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: black;
+}
+
+.nav__bar div {
+  margin: 0px 20px;
+}
+
+.nav__bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav__bar a:hover {
+  background: white;
+  color: black;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  margin: 0px 50px 0px 50px;
+}
+
+p .span {
+  font-weight: bold;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 20px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(grey),
+    to(white)
+  );
+  background: linear-gradient(white, rgb(213, 213, 213), white);
+  margin: 0;
+}
+
+.logokiakra {
+  width: 100%;
+}
+
+#grilla {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50px auto 25px;
+  grid-template-rows: 50px 850px 25px;
+  -ms-grid-columns: auto;
+  grid-template-columns: auto;
+  grid-template-areas: "nav" "main" "footer";
+  grid-row-gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: nav;
+}
+
+main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: main;
+}
+
+footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: footer;
+}

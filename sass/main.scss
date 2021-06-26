@@ -1,0 +1,28 @@
+@import "variables";
+@import "reset";
+@import "biografia";
+
+#grilla {
+  display: grid;
+  grid-template-rows: 50px auto 25px;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+  grid-row-gap: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
