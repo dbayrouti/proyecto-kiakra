@@ -68,6 +68,10 @@ h2 {
   justify-content: center;
   align-items: center;
 }
+
+.logokiakra {
+  width: 100%;
+}
 .formulario {
   max-width: 700px;
   height: 380px;
@@ -82,6 +86,13 @@ h2 {
 /* FOOTER */
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.copyright {
   display: flex;
   justify-content: center;
   align-items: center;

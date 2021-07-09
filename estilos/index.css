@@ -65,9 +65,17 @@ nav div {
 
 /* MAIN */
 .videoIndex {
-  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
+.contenedor {
+  height: 100vh;
+}
 /* FOOTER */
 
 footer {

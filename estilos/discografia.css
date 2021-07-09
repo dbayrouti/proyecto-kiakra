@@ -64,6 +64,10 @@ nav div {
 }
 
 /* MAIN */
+body {
+  padding-bottom: 80px;
+}
+
 h2 {
   text-align: center;
 }
@@ -76,19 +80,16 @@ h2 {
 }
 
 .discos {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: row;
-  max-height: 100vh;
-  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .discos__imagen {
   margin: 10px;
   border: 3px solid #000;
   box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
-  max-width: 18vw;
+  width: 250px;
 }
 
 .logokiakra {
@@ -98,6 +99,13 @@ h2 {
 /* FOOTER */
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.copyright {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,7 +114,6 @@ footer {
   margin: 0;
   height: 80px;
 }
-
 .text-footer {
   display: flex;
   justify-content: center;

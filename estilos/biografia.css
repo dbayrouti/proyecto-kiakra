@@ -97,6 +97,12 @@ p {
 /* FOOTER */
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.copyright {
   display: flex;
   justify-content: center;
   align-items: center;
